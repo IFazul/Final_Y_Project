@@ -2,7 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const bodyParser = require("body-parser");
 
-const userRoutes = require("./routes/users");
+const userRoutes = require("./routes/shops");
 const adminRoutes = require("./routes/admin");
 
 const port = process.env.PORT || 3080;
